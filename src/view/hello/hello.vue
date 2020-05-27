@@ -1,17 +1,17 @@
 <template>
-    <div class="hello">
-        <div class="bg">
-            <h1 class="title">基于网络拓扑及告警的
-                <br>故障根因定位系统实现及算法研究
-                <router-link to="/index" class="enter">
-                <img src="../../assets/img/enter.png" class="enter-icon">
-                </router-link>
-            </h1>
-            <div class="stars">
-                <div class="star" v-for="(item,index) in starsCount" :key="index" ref="star"></div>
-            </div>
-        </div>
+  <div class="hello">
+    <div class="bg">
+      <h1 class="title">基于网络拓扑及告警的
+        <br>故障根因定位系统实现及算法研究
+        <router-link to="/index" class="enter">
+          <img src="../../assets/img/enter.png" class="enter-icon">
+        </router-link>
+      </h1>
+      <div class="stars">
+        <div class="star" v-for="(item,index) in starsCount" :key="index" ref="star"></div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -76,15 +76,14 @@ export default {
   font-weight: 600;
 }
 .enter-icon {
-    width: 50px;
-    height: 50px;
-    padding: 5px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
 }
 .enter-icon:hover {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
-
 
 /*星空背景*/
 .stars {
